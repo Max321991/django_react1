@@ -1,12 +1,16 @@
 import { useState } from 'react'
+import "./assets/css/style.css";
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Main from './components/Main';
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1 style={{ textAlign:"center" }}>React and django project be Launch Soon...</h1>
-      </div>
+      <Header />
+      <Main/>
+      <Footer />
     </>
   )
 }

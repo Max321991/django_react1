@@ -1,12 +1,11 @@
+import { Link } from "react-router-dom"
 
 
 
 const Button = (propes) => {
   return (
     <>
-    <a className={`btn ${propes.class}`} href="">{propes.text}</a>
-    
-    
+      <Link className={`btn ${propes.class}`} to={propes.url}>{propes.text}</Link>
     </>
     
   )

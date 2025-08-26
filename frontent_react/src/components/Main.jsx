@@ -11,7 +11,7 @@ const Main = () => {
       <p className='text-light lead'>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, inventore aliquid dolores similique quam quisquam, doloremque esse expedita consectetur, est dolore. Sequi perferendis illo hic possimus nihil exercitationem quod est?
       </p>
-      <Button class="btn-outline-warning" text="Explore Here" url="/"/>
+      <Button class="btn-outline-warning" text="Explore Here" url="/dashboard"/>
       {/* <a className='btn btn-outline-info' href=''>Explore Here</a> */}
       {/* <Link to=''>helooooo</Link> */}
 

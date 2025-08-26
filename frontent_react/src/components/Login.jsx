@@ -26,7 +26,7 @@ const Login = () => {
            localStorage.setItem('refreshToken', response.data.refresh)
            console.log('Login successfully');
            setIsLoggedIn(true)
-           navigate('/')
+           navigate('/dashboard')
           
 
         }catch(error){
